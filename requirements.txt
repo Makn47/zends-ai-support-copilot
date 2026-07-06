@@ -1,0 +1,14 @@
+# Core dependencies (used by the lite/tested pipeline — install these to run everything in this repo as-is)
+pandas>=2.0
+scikit-learn>=1.3
+vaderSentiment>=3.3
+faiss-cpu>=1.7
+streamlit>=1.35
+
+# Brief-spec dependencies (only needed to run 02b_*.py and 03b_*.py on a
+# machine/environment with huggingface.co access — see README "Environment
+# Limitations". Not required for the lite pipeline above.)
+# transformers>=4.30
+# datasets>=2.14
+# torch>=2.0
+# sentence-transformers>=2.2
